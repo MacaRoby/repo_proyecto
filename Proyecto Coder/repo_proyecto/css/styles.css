@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tituloSitio {
+  font-weight: 500;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 44px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  margin: 5px;
+}
+.acercaDeNosotrosTitulo {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 900;
+  margin-bottom: 50px;
+  background-color: rgb(194, 194, 194);
+  height: 100px;
+  padding-left: 20px;
+}
+.contactoTitulo{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  background-color: rgb(194, 194, 194);
+  height: 100px;
+  padding-left: 20px;
+
+}
+.registro {
+  font-weight: lighter;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+.tituloSobreImagen {
+  font-weight: lighter;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+.nuestrosInstructoresTitulo {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 900;
+  margin-bottom: 50px;
+  background-color: rgb(194, 194, 194);
+  height: 100px;
+  padding-left: 20px;
+}
+.nuestrasClasesTitulo {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 900;
+  margin-bottom: 50px;
+  background-color: rgb(194, 194, 194);
+  height: 100px;
+  padding-left: 20px;
+  grid-area: título;
+}
+.tablaEncabezados {
+  font-weight: lighter;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+.tituloDeMenu {
+  font-weight: lighter;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.bodyIndex{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  background-image: url(../assets/wallpaperbetter.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.liMenu {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+/* hover boton */
+.liMenu:hover{
+  background-color: gray;
+  transition: 1s;
+}
+.encabezadoContenedor{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;  
+  background-color: rgb(194, 194, 194);
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.encabezadoItem{
+  justify-self: end;
+}
+.instructoresContenedor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.acercaDeNosotrosContenedor{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: 
+  "imagen texto";
+  grid-gap: 30px;
+}
+.item1{
+  grid-area: imagen;
+} 
+.item2{
+  grid-area: texto;
+  padding-right: 40px;
+} 
+.linkTituloSitio{
+  color: black;
+} 
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imagenAcercaDe{
+  width: 350px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.imagenInstructor{
+  width: 400px;
+}
+.imagenInstructora{
+  width: 400px;
+}
+.texto{
+  grid-area: texto2;
+  align-items: center;
+  justify-content: center;
+}
+.sectionIndex{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+.boxFrase{
+  align-content: flex-end;
+  justify-items: flex-end;
+  margin: 50px;
+}
+.frase{
+color: black;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+text-align: left;
+line-height: 44px;
+word-spacing: normal;
+letter-spacing: normal;
+margin-bottom: 200px;
+}
+.tituloFrase{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  line-height: 44px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 500
+}
+.encabezadoContenedorIndex{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between; 
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.instructoresContenedor__Content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.instructoresContenedorContent__Text{
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 500;
+  margin-left: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.instructoresContenedorContent__Text2{
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;;
+  text-align: center;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-bottom:20px;
+}
+.nuestrasClasesSubtitulo{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 300;
+}
+.nuestrasClasesItem1{
+  display: flex;
+  flex-direction: row;
+}
+.nuestrasClasesItem2{
+  display: flex;
+  flex-direction: row;
+}
+.nuestrasClasesItem3{
+  display: flex;
+  flex-direction: row;
+}
+.boxTextoYogaKund{
+  margin: 50px
+}
+.boxTextoYogaViny{
+  margin:50px
+}
+.boxTextoMeditacion{
+  margin: 50px;
+}
+.contenedorContacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemContactoTexto{
+  margin-left: 40px;
+  margin-left: 20px;
+}
+.tituloUbicacion{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  line-height: 34px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 300;
+}
+.imagenUbicacion{
+  width: 600px;
+  margin-right: 20px;
+}
+.contenedorFormulario{
+  display: flex;
+  flex-direction: column;
+  border: black solid 2px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: max-content;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  align-content: center;
+  margin-left: 300px;
+}
+.formulario{
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .tituloSitio {
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 3px;
+}
+.liMenu {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.títuloFrase{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700
+}
+.frase{
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 200px;
+  font-weight: 500;
+  }
+  .acercaDeNosotrosTitulo {
+    font-size: 30px;
+  }
+  .imagenAcercaDe{
+  display: none;
+  }
+  .pGeneral {
+    font-size: 10px;
+    line-height: 24px;
+  }
+  .nuestrosInstructoresTitulo {
+    font-size: 30px;
+  }
+  .imagenInstructor{
+    width: 300px;
+  }
+  .imagenInstructora{
+    width: 300px;
+  }
+  .instructoresContenedorContent__Text{
+    font-size: 10px;
+  }
+  .instructoresContenedorContent__Text2{
+    font-size: 10px;
+  }
+  .instructoresContenedor{
+    display: flex;
+    flex-direction: column;
+  }
+  .nuestrasClasesTitulo {
+    font-size: 30px;
+  }
+  .nuestrasClasesItem1{
+    display: flex;
+    flex-direction: column;
+  }
+  .nuestrasClasesItem2{
+    display: flex;
+    flex-direction: column;
+  }
+  .nuestrasClasesItem3{
+    display: flex;
+    flex-direction: column;
+  }
+  .imagenYogaKund{
+   display: none;
+  }
+  .imagenYogaViny{
+   display: none;
+  }
+  .imagenMeditacion{
+    display: none;
+  }
+  .contactoTitulo{
+    font-size: 30px;
+  }
+  .contenedorContacto{
+    display: flex;
+    flex-direction: column;
+  }
+  .tituloUbicacion{
+   font-size: 15px;
+  }
+  .imagenUbicacion{
+    width: 250px;
+    margin-right: auto;
+  }
+  .contenedorFormulario{
+  margin: auto;
+  }
+  .bodyIndex{
+    background-size: cover;
+    background-image: url(../assets/wallpaper\ celular.jpeg);
+  }
+  .registro {
+    font-size: 15px;
+  }
+  .contenedorFormulario{
+    margin: auto;
+  }
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .tituloSitio{
+    font-weight: bold;
+  }
+  .frase{
+    font-weight: bold;
+  }
+  .tituloFrase{
+    font-weight: bold;
+  }
+  .acercaDeNosotrosContenedor{
+    display: flex;
+    flex-direction: column;
+  }
+  .item2{
+    align-items: center;
+    margin-left: 30px;
+  }
+  .instructoresContenedor{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorContacto{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorFormulario{
+    margin: auto;
+    }
+    .tituloUbicacion{
+      font-size: 25px;
+     }
+}
+.imagenLocation{
+  width: 700px;
+}
+.imagenSalon1{
+  width: 600px;
+}
+.imagenSalon2{
+  width: 600px;
+}
+.logoSitio {
+  font-weight: 300;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  line-height: 44px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+.header__logo {
+  color: black;
+}
+
+.footer__iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.pGeneral {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.imagenYogaKund {
+  width: 300px;
+  margin-left: 40px;
+}
+
+.imagenYogaViny {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.imagenMeditacion {
+  width: 300px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.pNuestrasClases{
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 24px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */

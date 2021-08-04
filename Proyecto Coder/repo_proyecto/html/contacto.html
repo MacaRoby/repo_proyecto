@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap-css/css/bootstrap.min.css">
+    <meta name="description" content="Clases de Yoga y Meditación. Contactanos">
+    <meta name="keywords" content="lugares de yoga, lugares de meditacion, contacto universo diksha, lugar para meditar, lugar para yoga">
+</head>
+<body class="bodyContacto">
+    <header class="encabezadoContenedor">
+      <a href="../index.html" class="header__logo" style="text-decoration: none;">
+        <h1 class="logoSitio" >Universo Diksha</h1>
+        </a>
+            <nav class="header__navigation">
+              <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./acercaDe.html">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nuestrosInstructores.html">Nuestros Instructores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nuestrasClases.html">Clases</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+    </header>
+    <section>
+        <h1 class="contactoTitulo">Contacto</h1>
+
+        <div class="contenedorContacto">
+            <div class="itemContactoTexto">
+                <br><p class="pGeneral">Nuestro espacio se encuentra en la calle 9 de Julio 1063, Ciudad de Mendoza. Para saber más sobre nosotros podes registrarte en nuestro boletín o contactarnos al 2616605500. </p>     
+            </div>
+            <div class="itemContactoLocation">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="imagenLocation" src="../assets/location.jpeg" class="d-block w-100" alt="ubicacion">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="imagenSalon1" src="../assets/salon yoga.jpeg" class="d-block w-100" alt="salon yoga">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="imagenSalon2" src="../assets/salon yoga 2.jpeg" class="d-block w-100" alt="salon yoga">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="contenedorFormulario">
+        <h2 class="registro">Suscribite a nuestro boletín</h2>
+        <h3 class="registro">Registrate para recibir noticias y actualizaciones</h3>
+        <form  class="formulario" method="POST">
+            <label for="nombre">
+                Nombre:
+            </label>
+            <input type="text" name="nombre" placeholder="María">
+            <label for="apellido">
+                Apellido:
+            </label>
+            <input type="text" name="apellido" placeholder="Perez">
+            <label for="email">
+                Email:
+            </label>
+            <input type="text" name="email" placeholder="nombre@mail.com">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+            <h2 class="registro">¿Qué Prefieres?</h2>
+            <label for="clases presenciales">Clases Presenciales</label>
+            <input type="checkbox" name="clases presenciales" id="">
+            <label for="clases online">Clases On-line</label>
+            <input type="checkbox" name="clases online" id="">
+            <label for="clases personalizadas">Clases Personalizadas</label>
+            <input type="checkbox" name="clases personalizadas" id="">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-outline-dark">Enviar</button>
+              <button type="button" class="btn btn-outline-dark">Resetear</button>
+            </div>
+        </form>
+        </div>  
+    </section>
+    <footer class="footer__iconos">
+      <span>
+          <img src="../assets/facebook_black_24dp.svg" alt="logo facebook">
+      </span>
+      <span>
+          <img src="../assets/place_black_24dp.svg" alt="logo ubicacion">
+      </span>
+      <span>
+          <img src="../assets/mail_black_24dp.svg" alt="logo mail">
+      </span>
+      <span>
+          <img src="../assets/phone_black_24dp.svg" alt="logo telefono">
+      </span>
+  </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

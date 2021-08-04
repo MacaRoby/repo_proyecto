@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <fieldset>
+    <legend>Datos Personales</legend>
+        <form method="POST">
+            <label for="nombre completo">
+                Nombre Completo:
+            </label>
+            <input type="text" name="nombre completo" placeholder="Juan Perez">
+            <label for="edad">
+                Edad:
+            </label>
+            <input type="text" name="edad" placeholder="X años">
+            <label for="sexo">
+                Hombre:
+            </label>
+            <input type="radio" value="hombre" name="sexo">
+            <label for="sexo">
+                Mujer:
+            </label>
+            <input type="radio" value="mujer" name="sexo">
+            <label for="email">
+                Email:
+            </label>
+            <input type="text" name="email" placeholder="nombre@mail.com">
+    </fieldset>
+    <fieldset>
+    <legend>Síntomas de Covid</legend>
+    <label for="fiebre">
+        Fiebre:
+    </label>
+        <input type="checkbox" name="fiebre" id="">
+    <label for="dolor de garganta">
+        Dolor de Garganta:
+    </label>
+        <input type="checkbox" name="dolor de garganta" id="">
+    <label for="perdida de gusto">
+        Pérdida de Gusto:
+    </label>
+    <input type="checkbox" name="perdida de gusto" id="">
+    </fieldset>
+    <fieldset>
+    <legend>Recomendaciones al Sitio</legend>
+        <textarea name="recomendaciones al sitio" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+    </fieldset> 
+        </form>
+</body>
+</html>

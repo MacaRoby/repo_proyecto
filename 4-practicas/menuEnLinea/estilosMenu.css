@@ -1,0 +1,42 @@
+.item1Menu{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.item2Menu{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border: black solid 5px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.submenu{
+    margin: 3px;
+    padding: 3px;
+    display: inline-block;
+    color: black;
+}
+ul.submenu ul{
+position: absolute;
+display: none;
+padding: 8px;
+margin: 8px;
+z-index: 1px;
+}
+/*Para que no rompa el estilo en linea del menu principal*/
+ul.submenu ul li{
+    display: block;
+    padding: 8px;
+    margin: 8px;
+}
+/*Para que los elementos se muestren en bloque*/
+ul.submenu li:hover ul{
+    display: block;
+    padding: 8px;
+    margin: 8px;
+}
+/*Para que se desplegue el menu cuando paso el mouse por arriba*/
